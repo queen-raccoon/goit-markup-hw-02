@@ -1,7 +1,9 @@
 :root{
     --acsent-color: #404BBF;
+    --text-color: #2E2F42;
     --main-font-family: 'Roboto', sans-serif;
     --second-font-family: 'Raleway', sans-serif;
+    --line-height-family: 1.5;
 }
 
 .list {
@@ -22,9 +24,12 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
     background: #4D5AE5;
     border-radius: 4px;
+}
+
+.main-btm-text {
+    color: #FFFFFF;
 }
 
 button:hover,
@@ -34,14 +39,15 @@ button:focus {
 
 body{
     font-family: var(--main-font-family);
+    color: var(--text-color);
+    line-height: var(--line-height-family);
 }
 
 .menu-link {
+    color: var(--text-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
 }
 
 .contact-mail,
@@ -49,7 +55,6 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -66,12 +71,12 @@ body{
 
 .logo-studio {
     font-family: var(--second-font-family);
+    color: var(--text-color);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
 }
 
 .menu-link:hover,
@@ -93,13 +98,11 @@ body{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
 }
 
 .section-description{
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -110,7 +113,6 @@ body{
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
 }
 
 .footer-description{
@@ -128,3 +130,22 @@ body{
     /* color: #FFFFFF; */
 }
 
+
+
+/* Portfolio */
+
+.portfolio-menu {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+
+.portfolio-menu:hover,
+.portfolio-menu:focus {
+    background: var(--acsent-color);
+    color: #FFFFFF;
+}
