@@ -1,5 +1,7 @@
 :root{
     --acsent-color: #404BBF;
+    --main-font-family: 'Roboto', sans-serif;
+    --second-font-family: 'Raleway', sans-serif;
 }
 
 .list {
@@ -31,7 +33,7 @@ button:focus {
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--main-font-family);
 }
 
 .menu-link {
@@ -53,7 +55,7 @@ body{
 }
 
 .logo-web{
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--second-font-family);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
@@ -63,7 +65,7 @@ body{
 }
 
 .logo-studio {
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--second-font-family);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
