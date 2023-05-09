@@ -1,3 +1,7 @@
+:root{
+    --acsent-color: #404BBF;
+}
+
 .list {
     list-style: none;
 }
@@ -7,8 +11,11 @@
 }
 
 button {
+    font-family: inherit;
     cursor: pointer;
-    font-family: 'Roboto', sans-serif;
+}
+
+.main-btm {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -20,7 +27,7 @@ button {
 
 button:hover,
 button:focus {
-    background: #404BBF;
+    background: var(--acsent-color);
 }
 
 body{
@@ -67,7 +74,7 @@ body{
 
 .menu-link:hover,
 .menu-link:focus {
-    color: #404BBF;
+    color: var(--acsent-color);
     text-decoration: underline;
     /* border-radius: 2px;  */
 }
@@ -76,7 +83,7 @@ body{
 .contact-mail:focus,
 .contact-tel:hover,
 .contact-tel:focus {
-    color: #404BBF;
+    color: var(--acsent-color);
 }
 
 .section-title{
@@ -107,7 +114,6 @@ body{
 .footer-description{
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     /* color: #F4F4FD; */
 }
