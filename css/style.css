@@ -1,6 +1,7 @@
 :root{
     --acsent-color: #404BBF;
-    --text-color: #2E2F42;
+    --text-color: #434455;
+    --second-text-color: #2E2F42;
     --main-font-family: 'Roboto', sans-serif;
     --second-font-family: 'Raleway', sans-serif;
     --line-height-family: 1.5;
@@ -41,10 +42,11 @@ body{
     font-family: var(--main-font-family);
     color: var(--text-color);
     line-height: var(--line-height-family);
+    background-color: #FFFFFF;
 }
 
 .menu-link {
-    color: var(--text-color);
+    color: var(--second-text-color);
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -52,11 +54,11 @@ body{
 
 .contact-mail,
 .contact-tel {
+    color: var(--second-text-color);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 
 .logo-web{
@@ -70,6 +72,7 @@ body{
 }
 
 .logo-studio {
+    color: var(--second-text-color);
     font-family: var(--second-font-family);
     color: var(--text-color);
     font-weight: 800;
@@ -94,6 +97,7 @@ body{
 }
 
 .section-title{
+    color: var(--second-text-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -104,10 +108,10 @@ body{
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 
 .section-topic{
+    color: var(--second-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -119,7 +123,7 @@ body{
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
-    /* color: #F4F4FD; */
+    color: #F4F4FD;
 }
 
 .main-banner{
@@ -127,7 +131,7 @@ body{
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
 }
 
 
