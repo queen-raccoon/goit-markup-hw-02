@@ -61,17 +61,7 @@ body{
     letter-spacing: 0.02em;
 }
 
-.logo-web{
-    font-family: var(--second-font-family);
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
-}
-
-.logo-studio {
+.logo {
     color: var(--second-text-color);
     font-family: var(--second-font-family);
     color: var(--text-color);
@@ -80,6 +70,10 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.logo-web{
+    color: #4D5AE5;
 }
 
 .menu-link:hover,
