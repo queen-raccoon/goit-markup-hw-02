@@ -46,11 +46,11 @@ body{
 }
 
 span {
-    color: var(--second-text-color);
+    color: var(--text-color);
 }
 
 .menu-link {
-    color: var(--second-text-color);
+    color: var(--text-color);
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -74,7 +74,7 @@ span {
     text-transform: uppercase;
 }
 
-.logo-studio{
+.logo-studio-down{
     color: #f4f4fd;
 }
 
@@ -119,6 +119,10 @@ span {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+}
+
+.main-title-wawd {
+    background-color: #FFFFFF;
 }
 
 .footer-description{
