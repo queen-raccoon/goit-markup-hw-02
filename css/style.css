@@ -82,6 +82,10 @@ body{
     /* border-radius: 2px;  */
 }
 
+.menu-list {
+    color: var(--text-color);
+}
+
 .contact-mail:hover,
 .contact-mail:focus,
 .contact-tel:hover,
