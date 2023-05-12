@@ -132,6 +132,9 @@ body{
     color: #FFFFFF;
 }
 
+.page-footer {
+   background-color: var(--second-text-color); 
+}
 
 
 /* Portfolio */
