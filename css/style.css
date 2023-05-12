@@ -18,6 +18,7 @@
 button {
     font-family: inherit;
     cursor: pointer;
+    line-height: var(--line-height-family);
 }
 
 .main-btm {
