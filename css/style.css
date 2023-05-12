@@ -155,3 +155,9 @@ body{
     background: #FFFFFF;
     border: 1px solid #E7E9FC;
 } */
+
+.main-hero-image {
+    background-color: var(--second-text-color);
+    text-align: center;
+}
+
