@@ -45,6 +45,10 @@ body{
     background-color: #FFFFFF;
 }
 
+span {
+    color: var(--second-text-color);
+}
+
 .menu-link {
     color: var(--second-text-color);
     font-weight: 500;
@@ -72,7 +76,7 @@ body{
 }
 
 .logo-studio{
-    color: var(--second-text-color);
+    color: #f4f4fd;
 }
 
 .menu-link:hover,
