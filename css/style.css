@@ -91,8 +91,12 @@ span {
 }
 
 .menu-list {
-    /* color: var(--text-color); */
+     color: var(--text-color); 
     font-style: normal;
+}
+
+.logo-studio-up {
+    color: var(--second-text-color);
 }
 
 .contact-mail:hover,
@@ -180,4 +184,8 @@ span {
 
 .main-team {
     background-color: #F4F4FD;
+}
+
+.team-caption {
+    background-color: #FFFFFF;
 }
