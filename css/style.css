@@ -46,7 +46,7 @@ body{
 }
 
 .menu-link {
-    color: var(--second-text-color);
+    color: var(--text-color);
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
