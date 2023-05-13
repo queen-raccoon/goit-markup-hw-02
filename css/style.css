@@ -63,7 +63,7 @@ span {
 
 .contact-mail,
 .contact-tel {
-    color: var(--second-text-color);
+    color: var(--text-color);
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -141,7 +141,7 @@ span {
     color: #F4F4FD;
 }
 
-.main-banner{
+.text-main-banner{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
